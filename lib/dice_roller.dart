@@ -22,7 +22,7 @@ class _DiceRoller extends State<DiceRoller>{
           mainAxisSize: MainAxisSize.min,
           children: [
             Image.asset(activatedicenumber ,width:200),
-            SizedBox(height:30),
+            SizedBox(height:20),
             TextButton(
               onPressed: rolldice,
               style: TextButton.styleFrom(
